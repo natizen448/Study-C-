@@ -8,14 +8,14 @@ namespace Study
 {
     class Linq
     {
-
-        private void MethodChaining()
+        static void Main(string[] args)
         {
-            var names = new List<string>
-            {
-                "Seoul","New Delhi",
-            };
+            //var names = new List<string>
+            //{
+            //    "Seoul","New Delhi",
+            //};
 
+            #region MethodChaining
             //IEnumerable<String> query = names.Where(s => s.Length <= 5).Select(s => s.ToLower()); // Where 메서드를 통해 추출한 문자를 소문자로 변경
             // 이처럼 메서드를 연결하는 것을 메서드 체인이라고 한다.
 
@@ -28,8 +28,9 @@ namespace Study
             //{
             //    Console.WriteLine("{0} ", n);
             //}
+            #endregion
 
-
+            #region 지연실행
             //// 지연실행
             //var query = names.Where(s => s.Length <= 5);
             //foreach (var item in query)
@@ -50,7 +51,9 @@ namespace Study
             //// 이를 보고 알 수 있는 사실은 이 query 변수에는 검색된결과가 대입되는 것이 아니라, Where 메서드가 호출돼도 검색은 해당 시점에서 실행되지 않고
             //// 실제 값이 필요할 때 쿼리가 실행된다는 것을 나타낸다.
             //// 데이터가 필요할 때마다 쿼리가 실행되는 것이 Linq의 큰 특징이다.
+            #endregion
 
+            #region 즉시 실행
             //// 즉시 실행
             //var query = names.Where(s => s.Length <= 5).ToArray();
             //foreach (var item in query)
@@ -70,7 +73,10 @@ namespace Study
             //// Paris
             //// 이렇게 하면 ToArray가 메서드가 호출됐을 때 쿼리가 실행되며 그 결과가 배열에 저장됩니다.
             //// 이와 같은 메서드들은 ToList, Count등이 있습니다.
-
+            #endregion
         }
+
+
     }
+
 }

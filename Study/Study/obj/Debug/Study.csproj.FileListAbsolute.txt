@@ -1,0 +1,2 @@
+C:\Users\Asphyxia\Documents\GitHub\Study-C-\Study\Study\obj\Debug\Study.csproj.AssemblyReference.cache
+C:\Users\Asphyxia\Documents\GitHub\Study-C-\Study\Study\obj\Debug\Study.csproj.CoreCompileInputs.cache
