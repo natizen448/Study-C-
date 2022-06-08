@@ -1,0 +1,2 @@
+C:\Users\Asphyxia\source\repos\Study\Study\obj\Debug\Study.csproj.AssemblyReference.cache
+C:\Users\Asphyxia\source\repos\Study\Study\obj\Debug\Study.csproj.CoreCompileInputs.cache
