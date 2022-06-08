@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DF03A431-9B7D-4ADA-88CD-1BAB1425BCD1}</ProjectGuid>
+    <ProjectGuid>{EC13AD77-A489-4697-ABD5-709DD27153F6}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Study</RootNamespace>
     <AssemblyName>Study</AssemblyName>
@@ -34,9 +34,6 @@
   </PropertyGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Ramda.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
